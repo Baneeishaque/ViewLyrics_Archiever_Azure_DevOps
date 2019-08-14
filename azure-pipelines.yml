@@ -14,4 +14,7 @@ steps:
     sudo apt install -y ruby-full
     which ruby
     which gem
+    sudo gem install wayback_machine_downloader
+    which wayback_machine_downloader
+    wayback_machine_downloader http://viewlyrics.com -d viewlyrics
   displayName: 'Prerequisites'
