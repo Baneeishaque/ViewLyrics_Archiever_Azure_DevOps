@@ -11,7 +11,7 @@ pool:
 
 steps:
 - script: |
-    apt install -y ruby-full
+    sudo apt install -y ruby-full
     which ruby
     which gem
   displayName: 'Prerequisites'
